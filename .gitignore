@@ -1,0 +1,15 @@
+#ignore class files
+**/*.class
+
+#ignore the bin, lib, logs, temp, and work dirs
+bin/**
+lib/**
+logs/**
+temp/**
+work/**
+
+#ignore the Tomcat default webapps
+webapps/docs/**
+webapps/examples/**
+webapps/host-manager/**
+webapps/manager/**
